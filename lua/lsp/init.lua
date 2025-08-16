@@ -33,7 +33,7 @@ vim.filetype.add({
 
 -- Load individual LSP configs
 require("lsp.zig")(M)
-require("lsp.pylsp")(M)
+require("lsp.basedpyright")(M)
 require("lsp.clangd")(M)
 require("lsp.metal")(M)
 require("lsp.rust")(M)
